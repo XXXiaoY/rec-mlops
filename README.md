@@ -144,13 +144,4 @@ make test-smoke      # 冒烟测试
 | pre-commit | Git 钩子 | .pre-commit-config.yaml |
 | Locust | 负载测试 | tests/locustfile.py |
 
-### 常见问题
 
-**Q: 虚拟环境在哪？**  
-A: `./venv_py313/`
-
-**Q: 如何更新依赖？**  
-A: 编辑 `requirements-minimal.txt` 后运行 `make install-dev`
-
-**Q: 单元测试为什么失败？**  
-A: 完整测试需要 Docker 环境或安装完整依赖 (`requirements.txt`)
